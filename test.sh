@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 # Test docker image
 
 set -eo pipefail

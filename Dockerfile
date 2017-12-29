@@ -22,5 +22,6 @@ COPY docker-entrypoint.sh /usr/local/bin/
 ENTRYPOINT ["docker-entrypoint.sh"]
 
 EXPOSE 3306
+
 # Default arguments passed to ENTRYPOINT if no arguments are passed when starting container
 CMD ["mysqld_safe"]
